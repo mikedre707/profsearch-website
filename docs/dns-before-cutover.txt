@@ -1,0 +1,27 @@
+# profsearch.net DNS snapshot BEFORE cutover — Fri Aug  7 14:23:49 PDT 2026
+
+## A records (apex)
+66.96.162.132
+
+## MX records (EMAIL — MUST REMAIN IDENTICAL)
+5 alt2.aspmx.l.google.com.
+5 alt1.aspmx.l.google.com.
+10 alt3.aspmx.l.google.com.
+10 alt4.aspmx.l.google.com.
+1 aspmx.l.google.com.
+
+## TXT records
+"v=spf1 ip4:66.96.128.0/18 include:websitewelcome.com include:_spf.google.com ~all"
+
+## www CNAME
+
+## NS (who hosts the DNS)
+ns2.domain.com.
+ns1.domain.com.
+
+## www A record
+66.96.162.132
+
+## Registrar (whois)
+   Registrar URL: http://www.domain.com
+   Registrar: Domain.com - Network Solutions, LLC
