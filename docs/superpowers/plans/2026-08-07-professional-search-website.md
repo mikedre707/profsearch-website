@@ -593,7 +593,7 @@ git commit -m "feat: add optimized web images and social share card"
   </div>
 
   <div class="terms-row">
-    <div class="term"><strong>15% flat fee</strong><span>Of first-year base salary. Below the 20 to 25% most agencies charge.</span></div>
+    <div class="term"><strong>15% flat fee</strong><span>Of first-year base salary. Below what most agencies charge.</span></div>
     <div class="term"><strong>90-day guarantee</strong><span>Every placement is backed for a full 90 days.</span></div>
     <div class="term"><strong>Free conversion</strong><span>Contract hires become your permanent employees at no cost after 6 months.</span></div>
   </div>
@@ -745,7 +745,7 @@ git commit -m "feat: add homepage"
 
 <div class="wrap">
   <div class="terms-row" style="padding-top:34px;">
-    <div class="term"><strong>15% of base salary</strong><span>One flat fee, below the 20 to 25% most agencies charge.</span></div>
+    <div class="term"><strong>15% of base salary</strong><span>One flat fee, below what most agencies charge.</span></div>
     <div class="term"><strong>90-day guarantee</strong><span>If a placement does not work out in the first 90 days, we make it right.</span></div>
     <div class="term"><strong>Free conversion</strong><span>Contract candidates join your payroll at no charge after 6 months of employment.</span></div>
   </div>

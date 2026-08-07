@@ -52,7 +52,7 @@ Five pages, one shared stylesheet, shared header and footer.
 4. **about.html — About.** Family-owned story, over 30 years, national reach, insurance specialty, Mike Lazaro named as the recruiter clients and candidates work with, LinkedIn link.
 5. **contact.html — Contact.** Email, phone, LinkedIn, both CTAs repeated, the Let's Connect circle as the visual anchor.
 
-Header on every page: logo, nav links (Home, For Employers, For Job Seekers, About, Contact), phone number in orange. Footer on every page: logo, contact details, copyright.
+Header on every page: logo, nav links (Home, For Employers, For Job Seekers, About, Contact), phone number in orange. Footer on every page: contact details and copyright (owner accepted the shipped no-logo footer, 2026-08-07).
 
 ## Design System
 
