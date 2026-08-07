@@ -12,7 +12,7 @@
 
 - Repo root: `/Users/michaellazaro/Desktop/Apps /ProfSearch-Website` (note the space in `Apps `; always quote paths).
 - Deployable site lives entirely in `site/`. Nothing outside `site/` gets published.
-- Colors, exact: navy `#1F2A44`, orange `#F4924E`, light bg `#F7F8FA`, body text `#5a6070`. White `#ffffff`.
+- Colors, exact: navy `#1F2A44`, orange `#F4924E`, light bg `#F7F8FA`, body/paragraph copy `#5a6070`. White `#ffffff`. (`styles.css` additionally defines `--text: #333a4a` as the darker strong-text base; paragraph copy uses `#5a6070`.)
 - Contact facts, exact: `mike@profsearch.net`, phone display `415-246-7302`, tel link `+14152467302`, LinkedIn `https://www.linkedin.com/in/michael-lazaro-b891a011a`.
 - Years claim: "over 30 years" / "30+ years". Never "35".
 - Terms, exact: 15% of base salary fee; 90-day guarantee; contract candidates convert to permanent at no cost after 6 months.
@@ -62,8 +62,8 @@ for p in $PAGES; do
   ck "$p has tel link" grep -q 'tel:+14152467302' "$p"
   ck "$p has email text" grep -q 'mike@profsearch.net' "$p"
   ck "$p has viewport meta" grep -q 'name="viewport"' "$p"
-  ck "$p no em dash" bash -c "! grep -q '—' '$p'"
-  ck "$p never claims 35 years" bash -c "! grep -qi '35 year' '$p'"
+  ck "$p no em dash" bash -c "test -f '$p' && ! grep -q '—' '$p'"
+  ck "$p never claims 35 years" bash -c "test -f '$p' && ! grep -qi '35 year' '$p'"
 done
 
 ck "styles.css exists" test -f site/css/styles.css
@@ -138,7 +138,7 @@ Sitemap: https://profsearch.net/sitemap.xml
 <style>
 /* Self-contained on purpose: the 404 renders for any bad path, so it must not
    rely on relative asset paths. */
-body { font-family: 'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif; color: #333a4a; line-height: 1.6; margin: 0; }
+body { font-family: 'Avenir Next', 'Segoe UI', Helvetica, Arial, sans-serif; color: #5a6070; line-height: 1.6; margin: 0; }
 main { max-width: 640px; margin: 80px auto; padding: 0 20px; }
 h1 { color: #1F2A44; line-height: 1.2; margin: 0 0 12px; }
 a { color: #1F2A44; }
