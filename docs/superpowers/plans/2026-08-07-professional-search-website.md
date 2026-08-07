@@ -254,7 +254,7 @@ git commit -m "feat: scaffold site with check script, fonts, favicon, copy-email
   --navy: #1F2A44;
   --navy-soft: #28365a;
   --orange: #F4924E;
-  --orange-deep: #d97428;
+  --orange-deep: #b45309;
   --bg-light: #F7F8FA;
   --text: #333a4a;
   --text-soft: #5a6070;
@@ -288,7 +288,7 @@ h1, h2, h3 { font-family: var(--heading); color: var(--navy); line-height: 1.18;
 .btn-navy { background: var(--navy); color: #fff; }
 .btn-navy:hover { background: var(--navy-soft); }
 .btn-orange { background: var(--orange-deep); color: #fff; }
-.btn-orange:hover { background: #c2661f; }
+.btn-orange:hover { background: #9a4508; }
 .btn-outline { border: 2px solid var(--navy); color: var(--navy); background: #fff; }
 
 /* Hero (home) */
@@ -1156,6 +1156,7 @@ git commit -m "feat: add about page"
 
 <main>
 <div class="wrap section">
+  <h2 class="section-title">Two ways to reach Mike</h2>
   <div class="doors">
     <div class="door door-employers">
       <h3>HIRING?</h3>
