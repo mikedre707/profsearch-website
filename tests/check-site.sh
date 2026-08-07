@@ -16,8 +16,8 @@ for p in $PAGES; do
   ck "$p has tel link" grep -q 'tel:+14152467302' "$p"
   ck "$p has email text" grep -q 'mike@profsearch.net' "$p"
   ck "$p has viewport meta" grep -q 'name="viewport"' "$p"
-  ck "$p no em dash" bash -c "! grep -q '—' '$p'"
-  ck "$p never claims 35 years" bash -c "! grep -qi '35 year' '$p'"
+  ck "$p no em dash" bash -c "test -f '$p' && ! grep -q '—' '$p'"
+  ck "$p never claims 35 years" bash -c "test -f '$p' && ! grep -qi '35 year' '$p'"
 done
 
 ck "styles.css exists" test -f site/css/styles.css
