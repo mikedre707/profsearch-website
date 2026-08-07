@@ -722,7 +722,7 @@ git commit -m "feat: add homepage"
   <div class="wrap">
     <span class="kicker">FOR EMPLOYERS</span>
     <h1>Hire vetted insurance professionals.</h1>
-    <p>You work with one recruiter, Mike Lazaro, who has filled insurance roles for over 30 years. Describe the role. Get a short list of candidates worth interviewing, not a stack of resumes.</p>
+    <p>You work with one recruiter, Mike Lazaro, backed by Professional Search's 30+ years of insurance placements. Describe the role. Get a short list of candidates worth interviewing, not a stack of resumes.</p>
     <div class="hero-ctas">
       <a class="btn btn-navy" href="mailto:mike@profsearch.net?subject=Hiring%20Inquiry&amp;body=Hi%20Mike%2C%0A%0AWe%27re%20looking%20to%20fill%20%5Brole%5D%20in%20%5Blocation%5D.%20Please%20get%20in%20touch.%0A%0AThanks%2C">Email Mike about a role</a>
       <a class="btn btn-outline" href="tel:+14152467302">Call 415-246-7302</a>
@@ -903,7 +903,7 @@ git commit -m "feat: add for-employers page"
   <div class="steps">
     <div class="step"><div><h3>Email your resume</h3><p>PDF or Word, attached to a note with the role type and location you want. If you have insurance industry experience, we want to see it.</p></div></div>
     <div class="step"><div><h3>Talk with Mike</h3><p>A direct conversation about your goals, salary expectations, and where you want to work. Confidential, always.</p></div></div>
-    <div class="step"><div><h3>Interview with matched employers</h3><p>Mike presents you to employers he has known for decades, for roles that actually fit. Direct hire, temp-to-hire, or contract.</p></div></div>
+    <div class="step"><div><h3>Interview with matched employers</h3><p>Mike presents you to employers Professional Search has served for decades, for roles that actually fit. Direct hire, temp-to-hire, or contract.</p></div></div>
   </div>
 </div>
 
@@ -999,7 +999,7 @@ git commit -m "feat: add for-job-seekers page with resume email flow"
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>About Professional Search | 30+ Years of Insurance Recruiting</title>
-<meta name="description" content="Professional Search is a family-owned insurance staffing and recruiting agency. For over 30 years, Mike Lazaro has connected employers nationwide with top-tier insurance talent.">
+<meta name="description" content="Professional Search is a family-owned insurance staffing and recruiting agency. For over 30 years, we have connected employers nationwide with top-tier insurance talent.">
 <link rel="canonical" href="https://profsearch.net/about.html">
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="css/styles.css">
