@@ -41,6 +41,7 @@ Use these exactly. Do not invent claims beyond them.
 - Finance roles: all accounting and finance professionals, accounting managers, finance managers, staff accountants, junior accountants, chief financial officers.
 - IT roles: software engineers.
 - Contact: Mike Lazaro, mike@profsearch.net, 415-246-7302, linkedin.com/in/michael-lazaro-b891a011a.
+- Owner-added placements (Michael, 2026-08-27): nurses, administrative professionals, sales executives, account managers, plus "and more" phrasing, approved for the homepage hero.
 
 ## Site Structure
 
