@@ -39,6 +39,7 @@ ck "LinkedIn linked on about" grep -q 'linkedin.com/in/michael-lazaro-b891a011a'
 ck "LinkedIn linked on contact" grep -q 'linkedin.com/in/michael-lazaro-b891a011a' site/contact.html
 ck "favicon exists" test -f site/img/favicon.svg
 ck "og image exists" test -f site/img/og.png
+ck "Search Console verification file present" test -f site/googlec7994579a374acf0.html
 ck "no stale profsearch.net web links" bash -c "! grep -rq 'https://profsearch.net' site"
 
 exit $FAIL
