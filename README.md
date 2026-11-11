@@ -1,6 +1,6 @@
 # Professional Search Website
 
-Static marketing site for Professional Search (insurance staffing and recruiting), served at https://profsearch.net via GitHub Pages.
+Static marketing site for Professional Search (insurance staffing and recruiting), served at https://profsearchstaffing.com via GitHub Pages.
 
 - `site/` is the deployable site. Everything else stays private to the repo.
 - Deploys automatically from `main` via `.github/workflows/deploy-pages.yml`.

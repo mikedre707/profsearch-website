@@ -17,7 +17,7 @@ Replace the placeholder page at profsearch.net with a real website for Professio
 |----------|----------|
 | Positioning | Insurance-first. Lead with insurance staffing; Legal, Healthcare, Finance, IT appear as a secondary "we also staff" section. |
 | Audience balance | Both audiences, split paths. Two doors on the homepage: employers and job seekers. |
-| Domain | profsearch.net. Email on the domain must keep working; MX records stay untouched. |
+| Domain | profsearchstaffing.com (Namecheap, bought 2026-11-11; the original profsearch.net registrar account was unrecoverable). profsearch.net stays as the email domain only; its MX records are untouched. |
 | Fees on site | Publish all terms: 15% of base salary, 90-day guarantee, free temp-to-perm conversion after 6 months. |
 | Job listings | None. Evergreen content only. |
 | Personal presence | Name Mike Lazaro as the recruiter, link his LinkedIn. No photo for now. |

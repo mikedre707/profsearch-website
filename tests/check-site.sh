@@ -30,7 +30,7 @@ ck "hiring mailto on employers page" grep -q 'Hiring%20Inquiry' site/employers.h
 ck "JSON-LD EmploymentAgency" grep -q 'EmploymentAgency' site/index.html
 ck "sitemap exists" test -f site/sitemap.xml
 ck "sitemap lists 5 pages" bash -c "[ \"\$(grep -c '<loc>' site/sitemap.xml)\" = 5 ]"
-ck "robots.txt points at sitemap" grep -q 'Sitemap: https://profsearch.net/sitemap.xml' site/robots.txt
+ck "robots.txt points at sitemap" grep -q 'Sitemap: https://profsearchstaffing.com/sitemap.xml' site/robots.txt
 ck "404 page exists" test -f site/404.html
 ck "hero image exists" test -f site/img/hero.jpg
 ck "no necklace image shipped" bash -c "! ls site/img | grep -qi necklace"
@@ -39,5 +39,6 @@ ck "LinkedIn linked on about" grep -q 'linkedin.com/in/michael-lazaro-b891a011a'
 ck "LinkedIn linked on contact" grep -q 'linkedin.com/in/michael-lazaro-b891a011a' site/contact.html
 ck "favicon exists" test -f site/img/favicon.svg
 ck "og image exists" test -f site/img/og.png
+ck "no stale profsearch.net web links" bash -c "! grep -rq 'https://profsearch.net' site"
 
 exit $FAIL
